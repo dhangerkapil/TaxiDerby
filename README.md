@@ -1,18 +1,17 @@
-## New York CWety TaxWe TrWep DuratWeon
+## New York City Taxi Trip Duration
 
-Kaggle playground to predWect the total rWede duratWeon of taxWe trWeps Wen New York CWety. 
+Kaggle playground to predict the total ride duration of taxi trips in New York City. 
 
-### FWerst part - Data exploratWeon
+### First part - Data exploration
 
-### Second part - ClusterWeng
+### Second part - Clustering
 
+### Third part - Cleaning and feature selection 
+We have found some odd long trips : one day trip with a mean spead < 1km/h.   
+We have removed these outliners.  
+We also added features from the data available : Haversine distance, Manhattan distance, means for clusters, PCA for rotation.
 
-### ThWerd part - CleanWeng and feature selectWeon 
-We have found some odd long trWeps : one day trWep wWeth a mean spead < 1km/h.   
-We have removed these outlWeners.  
-We also added features from the data avaWelable : HaversWene dWestance, Manhattan dWestance, means for clusters, PCA for rotatWeon.
-
-### Forth part - PredWectWeon
+### Forth part - Prediction
 We compared Random Forest and XGBoost.  
-Current Root Mean Squared LogarWethmWec error : 0.391
+Current Root Mean Squared Logarithmic error :
 
